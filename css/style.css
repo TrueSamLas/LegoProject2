@@ -1,70 +1,74 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     width: 1440px;
 }
 
-.banner{
+.banner {
     width: 1440px;
     height: 346px;
-    background-color:  #FEE667;
+    background-color: #FEE667;
 
 }
-.logo{
+
+.logo {
     margin-top: 30px;
-    margin-left: 141px;   
+    margin-left: 141px;
 }
 
-.lego{
+.lego {
     float: right;
     padding-top: 80px;
     padding-right: 114px;
 }
 
-.banner p{
+.banner p {
     color: #2590DD;
-  
+
     font-size: 32px;
     font-weight: bold;
 }
 
-p span{
+p span {
     font-size: 60px;
 }
 
-.text{
+.text {
     margin-top: 40px;
     padding-left: 136px;
 }
-.text2{
+
+.text2 {
     width: 500px;
     margin-top: 14px;
     padding-left: 136px;
 }
 
-header ul li{
+header ul li {
     text-decoration: none;
     display: inline-block;
     margin-left: 15px;
     font-size: 24px;
 }
-header ul{
-    padding-top:29px ;
+
+header ul {
+    padding-top: 29px;
     margin-left: 200px;
 }
-header{
+
+header {
     width: 1440px;
     height: 87px;
-    background-color:#FFCA10 ;
-    
+    background-color: #FFCA10;
+
 }
 
-.mask{
+.mask {
     width: 1191px;
     height: 193px;
     margin-left: 128px;
@@ -72,27 +76,78 @@ header{
     padding: 20px;
     margin-top: 31px;
 }
-.mask h4{
+
+.mask h4 {
     margin-bottom: 18px;
     font-size: 24px;
     font-weight: normal;
 }
-.mask p{
+
+.mask p {
     margin-bottom: 20px;
     font-size: 18px;
 }
+
 .mask p span {
     font-size: 18px;
     color: #1A01B7;
 }
 
-footer{
+.constructor {
+    width: 1191px;
+    margin-left: 128px;
+    margin-top: 32px;
+
+}
+
+.constructor .items {
+    display: grid;
+    grid-template-columns: repeat(4, 265px);
+    column-gap: 44px;
+    margin-top: 18px;
+}
+
+.constructor .item {
+    width: 265px;
+    height: 417px;
+    background-color: #d3d3d3;
+    border: none;
+
+}
+
+.constructor .item img {
+    width: 229px;
+    height: 230px;
+    
+}
+
+.constructor .item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.constructor .item h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.constructor .item button {
+    background-color: #FFCA10;
+    width: 237.02px;
+    height: 33.73px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+footer {
     width: 1440px;
     height: 74px;
-    background-color:#FFCA10 ;
+    background-color: #FFCA10;
     margin-top: 31px;
 }
-footer p{
+
+footer p {
     padding-left: 500px;
     font-size: 18px;
     padding-top: 24px;
