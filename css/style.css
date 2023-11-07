@@ -86,6 +86,53 @@ header{
     color: #1A01B7;
 }
 
+.exclusives {
+    width: 1191px;
+    margin-left: 128px;
+    margin-top: 32px;
+
+}
+
+.exclusives .items {
+    display: grid;
+    grid-template-columns: repeat(4, 265px);
+    column-gap: 44px;
+    margin-top: 18px;
+}
+
+.exclusives .item {
+    width: 265px;
+    height: 417px;
+    background-color: #d3d3d3;
+    border: none;
+
+}
+
+.exclusives .item img {
+    width: 229px;
+    height: 230px;
+    
+}
+
+.exclusives .item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.exclusives .item h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.exclusives .item button {
+    background-color: #FFCA10;
+    width: 237.02px;
+    height: 33.73px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
 footer{
     width: 1440px;
     height: 74px;
