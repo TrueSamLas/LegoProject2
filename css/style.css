@@ -86,6 +86,15 @@ header{
     color: #1A01B7;
 }
 
+ .forms .main-form button {
+    background-color: #FFCA10;
+    width: 237.02px;
+    height: 33.73px;
+    border-radius: 5px;     
+    border: none;
+    text-transform: uppercase;
+}
+
 .main-form input, textarea {
     font-size: 22px;
     margin-top: 20px;
